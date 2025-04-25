@@ -784,7 +784,7 @@ service:
   ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
   ##
   nodePorts:
-    mongodb: ""
+    mongodb: 27017
   ## @param service.clusterIP MongoDB(&reg;) service cluster IP (only for standalone architecture)
   ## e.g:
   ## clusterIP: None
