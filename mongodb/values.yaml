@@ -193,7 +193,10 @@ auth:
     "_jedyD3v2l_",
     "_gantM0bDl_"
   ]
-  databases: []
+  databases: [
+    "autdb",
+    "accountdb"
+  ]
   ## @param auth.replicaSetKey Key used for authentication in the replicaset (only when `architecture=replicaset`)
   ##
   replicaSetKey: ""
